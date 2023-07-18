@@ -1,10 +1,21 @@
 #include <unistd.h>
 
+/**
+ * _putchar - writes a character to the standard output
+ * @c: The character to print
+ *
+ * Return: On success 1, on error -1.
+ */
 int _putchar(char c)
 {
   return write(1, &c, 1);
 }
 
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
   _putchar('_');
@@ -16,6 +27,6 @@ int main(void)
   _putchar('a');
   _putchar('r');
   _putchar('\n');
-  
-  return 0;
+
+  return (0);
 }
